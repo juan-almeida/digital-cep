@@ -1,0 +1,23 @@
+{
+    "name": "juansilva/digital-cep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan de Almeida Silva",
+            "email": "juansilva@sescmg.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4":{
+            "Juansilva\\DigitaCep\\": "src/"
+        }
+    }
+}
